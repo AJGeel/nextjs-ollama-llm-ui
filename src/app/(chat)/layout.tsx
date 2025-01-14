@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased tracking-tight ${inter.className}`}>
-        <ThemeProvider attribute="class" defaultTheme="dark">
+        <ThemeProvider attribute="class" defaultTheme="light">
           {children}
           <Toaster />
         </ThemeProvider>
