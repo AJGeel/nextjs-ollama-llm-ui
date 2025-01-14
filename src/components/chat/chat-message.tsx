@@ -66,7 +66,7 @@ function ChatMessage({ message, isLast, isLoading, reload }: ChatMessageProps) {
           width={6}
           height={6}
           className="object-contain dark:invert"
-          fallback={message.role == "user" ? "US" : ""}
+          fallback={message.role == "user" ? "Me" : ""}
         />
         <ChatBubbleMessage>
           <div className="flex gap-2">
